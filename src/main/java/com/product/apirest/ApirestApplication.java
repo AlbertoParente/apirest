@@ -1,4 +1,4 @@
-package com.produto.apirest;
+package com.product.apirest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
