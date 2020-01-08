@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class SwaggerConfig {
 
 	@Bean
-	public Docket productApi() {
+	public Docket productApis() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.products.apirest"))
