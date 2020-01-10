@@ -20,10 +20,10 @@ import java.util.ArrayList;
 public class SwaggerConfig {
 
 	@Bean
-	public Docket productApis() {
+	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.products.apirest"))
+				.apis(RequestHandlerSelectors.basePackage("com.product.apirest"))
 				.paths(regex("/api.*"))
 				.build()
 				.apiInfo(metaInfo());
