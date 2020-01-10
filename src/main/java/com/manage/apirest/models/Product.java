@@ -1,4 +1,4 @@
-package com.product.apirest.models;
+package com.manage.apirest.models;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

@@ -1,8 +1,8 @@
-package com.product.apirest.repository;
+package com.manage.apirest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.product.apirest.models.Client;
+import com.manage.apirest.models.Client;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {
 

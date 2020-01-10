@@ -1,4 +1,4 @@
-package com.product.apirest.resources;
+package com.manage.apirest.resources;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.product.apirest.models.Client;
-import com.product.apirest.models.Product;
-import com.product.apirest.repository.ClientRepository;
+import com.manage.apirest.models.Client;
+import com.manage.apirest.models.Product;
+import com.manage.apirest.repository.ClientRepository;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

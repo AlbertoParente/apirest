@@ -1,4 +1,4 @@
-package com.product.apirest.config;
+package com.manage.apirest.config;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import org.springframework.context.annotation.Bean;
@@ -23,7 +23,7 @@ public class SwaggerConfig {
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.product.apirest"))
+				.apis(RequestHandlerSelectors.basePackage("com.manage.apirest"))
 				.paths(regex("/api.*"))
 				.build()
 				.apiInfo(metaInfo());
@@ -31,9 +31,9 @@ public class SwaggerConfig {
 	
 	private ApiInfo metaInfo() {
 		ApiInfo apiInfo = new ApiInfo (
-				"Products API REST",
-				"API REST in products registration",
-				"1.0",
+				"Manage API REST",
+				"API REST in manage registration",
+				"2.0",
 				"Terms of Services",
 				new Contact("Alberto Parente", "albertoparente20@gmail.com",
 						"https://github.com/AlbertoParente"),
