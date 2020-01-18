@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.manage.apirest.models.Client;
-import com.manage.apirest.models.Product;
 import com.manage.apirest.repository.ClientRepository;
 
 import io.swagger.annotations.Api;
